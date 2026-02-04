@@ -77,11 +77,16 @@ header {
 }
 
 .logo-mark {
-  width: 36px;
-  height: 36px;
-  border-radius: 12px;
-  background: conic-gradient(from 120deg, var(--sage), var(--orange), var(--sky), var(--sage));
-  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.7);
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: #fff;
+  background-image: url("favicon.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  box-shadow: inset 0 0 0 1px rgba(31, 42, 46, 0.12);
+  flex: 0 0 auto;
 }
 
 .nav-links {
