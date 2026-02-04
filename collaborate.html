@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collaborate with Sunsprout Labs</title>
+    <meta
+      name="description"
+      content="Collaborate with Sunsprout Labs. Share your details and CV to explore research partnerships and experiments."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="icon" href="favicon-16.png" type="image/png" sizes="16x16" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <a class="logo" href="index.html">
+          <span class="logo-mark" aria-hidden="true"></span>
+          <span>Sunsprout Labs</span>
+        </a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="about.html">About</a>
+          <a href="research.html">Flavour Research</a>
+          <a href="lab-notes.html">Lab Notes</a>
+          <a href="collaborate.html">Collaborate</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a class="nav-cta" href="collaborate.html">Collaborate</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
+      </div>
+      <div class="container mobile-menu" id="mobileMenu">
+        <a href="about.html">About</a>
+        <a href="research.html">Flavour Research</a>
+        <a href="lab-notes.html">Lab Notes</a>
+        <a href="collaborate.html">Collaborate</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero container">
+        <span class="eyebrow">Collaborate</span>
+        <h1>Work with the lab.</h1>
+        <p>
+          We welcome thoughtful collaborations that align with careful research and transparent experimentation. Share
+          your details below and we will respond with next steps.
+        </p>
+        <div class="card" style="max-width: 560px;">
+          <span class="badge">Collaboration note</span>
+          <p style="color: var(--ink); font-weight: 600;">
+            Good collaborations are always recognised and rewarded.
+          </p>
+          <p>
+            When a collaboration genuinely adds value to Sunsprout Labs, we ensure it is acknowledged in a fair and
+            meaningful way.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <form
+            class="form"
+            action="https://formsubmit.co/sunsproutfoods@gmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <input type="text" name="_honey" style="display: none" tabindex="-1" autocomplete="off" />
+            <input type="hidden" name="_subject" value="Sunsprout Labs Collaboration Request" />
+            <input type="hidden" name="_captcha" value="true" />
+            <input type="hidden" name="_next" value="https://sunsproutlab.in/thanks.html" />
+
+            <div>
+              <label for="fullName">Full Name</label>
+              <input id="fullName" name="Full Name" type="text" required />
+            </div>
+            <div>
+              <label for="contactNumber">Contact Number</label>
+              <input id="contactNumber" name="Contact Number" type="tel" required />
+            </div>
+            <div>
+              <label for="email">Email Address</label>
+              <input id="email" name="Email" type="email" required />
+            </div>
+            <div>
+              <label for="cv">Upload CV (PDF / DOC)</label>
+              <input id="cv" name="attachment" type="file" accept=".pdf,.doc,.docx" required />
+            </div>
+
+            <button type="submit">Submit Collaboration Request</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-grid">
+        <div>
+          <h3>Sunsprout Labs</h3>
+          <p>Food innovation and experimentation lab based in Lucknow, India.</p>
+        </div>
+        <div>
+          <p class="eyebrow">Navigate</p>
+          <div class="list">
+            <a href="about.html">About</a>
+            <a href="research.html">Flavour Research</a>
+            <a href="lab-notes.html">Lab Notes</a>
+            <a href="collaborate.html">Collaborate</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <p class="eyebrow">Contact</p>
+          <p>labsunsprout@gmail.com</p>
+          <p>8127893782, 9161242224</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
